@@ -1,0 +1,17 @@
+{
+  "api/Math.Lib.Rooter.html": {
+    "href": "api/Math.Lib.Rooter.html",
+    "title": "Class Rooter | Math.Lib - SI784 Lab01",
+    "summary": "Class Rooter Namespace Math.Lib Assembly Math.Lib.dll Calcula raíces cuadradas de números positivos finitos. public class Rooter Inheritance object Rooter Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Remarks Utiliza aproximaciones sucesivas de Newton-Raphson. Constructors Rooter() Crea una instancia del calculador de raíces cuadradas. public Rooter() Methods SquareRoot(double) Obtiene una aproximación de la raíz cuadrada de una entrada positiva. public double SquareRoot(double input) Parameters input double Número finito estrictamente mayor que cero. Returns double Aproximación positiva de la raíz cuadrada de input. Remarks Finaliza cuando el cambio entre aproximaciones es como máximo el 0.1 % del resultado. La forma (resultado + entrada / resultado) / 2 evita elevar el resultado al cuadrado. Exceptions ArgumentOutOfRangeException La entrada es cero, negativa, NaN o infinita. El mensaje es: El valor ingresado es invalido, solo se puede ingresar números positivos."
+  },
+  "api/Math.Lib.html": {
+    "href": "api/Math.Lib.html",
+    "title": "Namespace Math.Lib | Math.Lib - SI784 Lab01",
+    "summary": "Namespace Math.Lib Classes Rooter Calcula raíces cuadradas de números positivos finitos."
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Math.Lib - Pruebas unitarias con MSTest | Math.Lib - SI784 Lab01",
+    "summary": "Math.Lib - Pruebas unitarias con MSTest La clase Rooter calcula la raíz cuadrada mediante Newton-Raphson. Acepta números positivos finitos y rechaza cero, negativos, NaN e infinitos. var rooter = new Math.Lib.Rooter(); var result = rooter.SquareRoot(4); // Aproximadamente 2 La tolerancia de convergencia es relativa (0.1 % entre iteraciones). El mensaje para entradas inválidas es: El valor ingresado es invalido, solo se puede ingresar números positivos Consulte la referencia API para las clases, métodos, parámetros y excepciones documentados mediante comentarios XML. El reporte de cobertura se encuentra enlazado desde la portada del sitio."
+  }
+}
